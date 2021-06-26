@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todos List</title>
+    <link rel="stylesheet" href="/css/app.css">
 </head>
 
 <body>
-    @yield('content')
-<footer> Copyrights </footer>
+
+    <div class="container">
+        @yield('content')
+    </div>
 
 </body>
+<footer class="text-center "> Copyrights 2021 @ Reham </footer>
 
 </html>

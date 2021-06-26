@@ -4,7 +4,7 @@
 
 @if (count($todos) > 0)
     @foreach ($todos as $todo)
-    <div class="card">
+    <div class="card m-2">
         <h2>{{$todo->Title}}</h2>
         <h3>{{$todo->Content}}</h3>
         <span class="label label-danger">{{$todo->Due}}</span>
