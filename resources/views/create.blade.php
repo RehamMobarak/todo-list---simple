@@ -2,6 +2,7 @@
 
 @section('content')
     <h1>Create new Todo</h1>
+    <div class="col-6">
     <form method="POST" action="/todos" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
@@ -16,6 +17,7 @@
             <label for="due">Due</label>
             <input type="text" class="form-control" name="due" id="due" placeholder="Enter due" value="{{ old('due') }}">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary m-2">Submit</button>
     </form>
+    </div>
 @endsection

@@ -46,10 +46,10 @@ class TodosController extends Controller
         $new_todo = new Todo();
         $new_todo->Title = $request->input('title');
         $new_todo->Content = $request->input('content');
-        $new_todo->Due = $request->input ('due');
+        $new_todo->Due = $request->input('due');
         $new_todo->save();
 
-        return redirect('/')->with('success','New Todo Saved !');
+        return redirect('/')->with('success', 'New Todo Saved !');
     }
 
     /**
@@ -94,10 +94,10 @@ class TodosController extends Controller
         $todo = Todo::find($id);
         $todo->Title = $request->input('title');
         $todo->Content = $request->input('content');
-        $todo->Due = $request->input ('due');
+        $todo->Due = $request->input('due');
         $todo->save();
 
-        return redirect('/')->with('success','Edit Todo Done !');
+        return redirect('/')->with('success', 'Edit Todo Done !');
     }
 
     /**
@@ -108,6 +108,8 @@ class TodosController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $todo = Todo::find($id);
+        $todo->delete();
+        return redirect('/')->with('success', 'Delete Todo Done !');
     }
 }

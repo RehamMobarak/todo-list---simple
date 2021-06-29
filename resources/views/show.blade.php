@@ -8,7 +8,11 @@
         <hr>
         <p>{{$todo->Content}}</p>
         <a href="/todos/{{$todo->id}}/edit" class="btn btn-success m-2">Edit</a>
-
+        <form action="/todos/{{$todo->id}}" method="post" enctype="multipart/form-data">
+            @csrf
+            @method('DELETE')
+            <button type="submit" class="btn btn-danger m-2">Delete</button>
+        </form>
     </div>
 </div>
 
