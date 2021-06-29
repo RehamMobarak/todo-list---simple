@@ -8,8 +8,8 @@
             <li class="nav-item">
                 <a class="nav-link {{Request::is("/") ? 'active' : ''}}" href="/">Home</a>
             </li>
-            <li class="nav-item {{ Request::is('todo/create') ? 'active' : '' }}">
-                <a class="nav-link" href="todo/create">Create</a>
+            <li class="nav-item {{ Request::is('/todos/create') ? 'active' : '' }}">
+                <a class="nav-link" href="/todos/create">Create</a>
             </li>
         </ul>
     </div>
