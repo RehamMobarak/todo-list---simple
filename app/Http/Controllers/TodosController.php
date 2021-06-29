@@ -72,7 +72,8 @@ class TodosController extends Controller
      */
     public function edit($id)
     {
-        //
+        $todo = Todo::find($id);
+        return view("edit")->with('todo', $todo);
     }
 
     /**
@@ -84,7 +85,19 @@ class TodosController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'title' => 'required',
+            'content' => 'required',
+            'due' => 'required',
+        ]);
+
+        $todo = Todo::find($id);
+        $todo->Title = $request->input('title');
+        $todo->Content = $request->input('content');
+        $todo->Due = $request->input ('due');
+        $todo->save();
+
+        return redirect('/')->with('success','Edit Todo Done !');
     }
 
     /**
