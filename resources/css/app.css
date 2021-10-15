@@ -11225,7 +11225,7 @@ textarea.form-control-lg {
     margin-left: 1rem;
   }
 
-  .todo-bg{
+  .todo-bg , .input-box:focus{
     background: rgb(97,140,238);
     background: linear-gradient(90deg, rgba(97,140,238,1) 0%, rgba(175,120,247,1) 42%, rgba(228,122,238,1) 100%);
   }
