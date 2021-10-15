@@ -52,9 +52,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
   \*******************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nSyntaxError\n\n(11229:9) C:\\xampp\\htdocs\\todolist\\resources\\css\\app.css Unknown word\n\n \u001b[90m 11227 | \u001b[39m\n \u001b[90m 11228 | \u001b[39m  \u001b[33m.todo-bg\u001b[39m , \u001b[33m.input-box\u001b[39m\u001b[33m:\u001b[39mfocus\u001b[33m{\u001b[39m\n\u001b[1m\u001b[31m>\u001b[39m\u001b[22m\u001b[90m 11229 | \u001b[39m<<<<<<< HEAD\n \u001b[90m       | \u001b[39m        \u001b[1m\u001b[31m^\u001b[39m\u001b[22m\n \u001b[90m 11230 | \u001b[39m    background\u001b[33m:\u001b[39m \u001b[36mrgb\u001b[39m\u001b[36m(97,140,238)\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 11231 | \u001b[39m    background\u001b[33m:\u001b[39m \u001b[36mlinear-gradient\u001b[39m\u001b[36m(\u001b[39m90deg, \u001b[36mrgb\u001b[39m\u001b[36m(159, 183, 240)\u001b[39m 0%, \u001b[36mrgb\u001b[39m\u001b[36m(214, 187, 250)\u001b[39m 42%, \u001b[36mrgb\u001b[39m\u001b[36m(235, 191, 240)\u001b[39m 100%\u001b[36m)\u001b[39m\u001b[33m;\u001b[39m\n\n    at processResult (C:\\xampp\\htdocs\\todolist\\node_modules\\webpack\\lib\\NormalModule.js:701:19)\n    at C:\\xampp\\htdocs\\todolist\\node_modules\\webpack\\lib\\NormalModule.js:807:5\n    at C:\\xampp\\htdocs\\todolist\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\xampp\\htdocs\\todolist\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\xampp\\htdocs\\todolist\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at Object.loader (C:\\xampp\\htdocs\\todolist\\node_modules\\postcss-loader\\dist\\index.js:140:7)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ })
 
