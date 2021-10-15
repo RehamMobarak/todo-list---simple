@@ -17,7 +17,7 @@
             <label for="due">Due</label>
             <input type="text" class="form-control" name="due" id="due" placeholder="Enter due" value="{{ old('due') }}">
         </div>
-        <button type="submit" class="btn btn-primary m-2">Submit</button>
+        <button type="submit" class="btn todo-bg m-2">Submit</button>
     </form>
     </div>
 @endsection
