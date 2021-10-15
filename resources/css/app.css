@@ -11226,11 +11226,14 @@ textarea.form-control-lg {
   }
 
   .todo-bg , .input-box:focus{
+<<<<<<< HEAD
     background: rgb(97,140,238);
     background: linear-gradient(90deg, rgb(159, 183, 240) 0%, rgb(214, 187, 250) 42%, rgb(235, 191, 240) 100%);
   }
 
   .due-bg {
+=======
+>>>>>>> 0ae678b79b6001a0a9b16a52757fc5b4eaa939fa
     background: rgb(97,140,238);
     background: linear-gradient(90deg, rgba(97,140,238,1) 0%, rgba(175,120,247,1) 42%, rgba(228,122,238,1) 100%);
   }
