@@ -8,7 +8,7 @@
     <div class="card-body m-2">
         <h2><a href="todos/{{$todo->id}}">{{$todo->Title}}</a></h2>
         <p class="card-subtiltle">Last modified at {{$todo->updated_at}}</p>
-        <span class="badge rounded-pill bg-danger">{{$todo->Due}}</span>
+        <span class="badge rounded-pill todo-bg">{{$todo->Due}}</span>
     </div>
 </div>
 @endforeach
