@@ -13,4 +13,9 @@ class TodosApiController extends Controller
         return response()->json($todos);
     }
 
+    public function show($id){
+        $todo = Todo::find($id);
+        return response()->json($todo);
+    }
+    
 }
